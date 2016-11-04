@@ -25,6 +25,7 @@ public class score : MonoBehaviour
         if (scoreValue != 0)
         {
             ballCount.text = "BALLS: " + (--balls).ToString();
+			this.GetComponent<AudioSource> ().Play ();
         }
         if (balls == 0)
         {
