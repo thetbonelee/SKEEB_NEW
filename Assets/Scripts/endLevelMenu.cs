@@ -19,11 +19,11 @@ public class endLevelMenu : MonoBehaviour {
 
     public void PlayAgainPress()
     {
-        SceneManager.LoadScene("game");
+        SceneManager.LoadScene(Data.Level);
     }
 
     public void MainMenuPress()
     {
-
+        SceneManager.LoadScene("menu");
     }
 }

@@ -6,6 +6,7 @@ public class score : MonoBehaviour
 {
 
     public int scoreValue = 0;
+    public string level;
     public TextMesh scoreboard;
     public TextMesh ballCount;
     public GameObject ball;
@@ -30,6 +31,7 @@ public class score : MonoBehaviour
         if (balls == 0)
         {
             balls = 8;
+            Data.Level = level;
             Data.Score = int.Parse(scoreboard.text);
             if (int.Parse(scoreboard.text) >= 3000)
             {
