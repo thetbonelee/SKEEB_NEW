@@ -32,6 +32,18 @@ public class mainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("level3");
     }
+    public void FourPress()
+    {
+        SceneManager.LoadScene("level4");
+    }
+    public void FivePress()
+    {
+        SceneManager.LoadScene("level5");
+    }
+    public void SixPress()
+    {
+        SceneManager.LoadScene("level6");
+    }
     public void InstructionPress()
     {
         SceneManager.LoadScene("instructions");
