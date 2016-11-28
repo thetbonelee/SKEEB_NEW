@@ -13,11 +13,7 @@ public class mainMenu : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-       
-        one = one.GetComponent<Button>();
-        two = two.GetComponent<Button>();
-        three = three.GetComponent<Button>();
-        instruction = instruction.GetComponent<Button>();
+
 
     }
     public void OnePress()
@@ -47,5 +43,17 @@ public class mainMenu : MonoBehaviour
     public void InstructionPress()
     {
         SceneManager.LoadScene("instructions");
+    }
+    public void MainPress()
+    {
+        SceneManager.LoadScene("menu");
+    }
+    public void levelSelectPress()
+    {
+        SceneManager.LoadScene("levelSelect");
+    }
+    public void exitPress()
+    {
+        Application.Quit();
     }
 }
