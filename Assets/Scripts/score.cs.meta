@@ -1,10 +1,15 @@
 fileFormatVersion: 2
 guid: 3ed624c785dda3147a34073f62dc64ae
-timeCreated: 1473710350
+timeCreated: 1480562718
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - scoreboard: {instanceID: 0}
+  - ballCount: {instanceID: 0}
+  - ball: {instanceID: 0}
+  - launcher: {instanceID: 0}
+  - ps: {fileID: 198000012689550616, guid: 11d94f6fa4fe449a0baf2bf9d89fbb3f, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
