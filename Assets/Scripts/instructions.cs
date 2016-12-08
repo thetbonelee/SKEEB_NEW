@@ -6,16 +6,22 @@ using UnityEngine.SceneManagement;
 public class instructions : MonoBehaviour
 {
     
-    public Button mainMenu;
 
     // Use this for initialization
     void Start()
     {
-        mainMenu = mainMenu.GetComponent<Button>();
     }
     
     public void MainMenuPress()
     {
         SceneManager.LoadScene("menu");
+    }
+    public void MorePress()
+    {
+        SceneManager.LoadScene("more");
+    }
+    public void BackPress()
+    {
+        SceneManager.LoadScene("instructions");
     }
 }

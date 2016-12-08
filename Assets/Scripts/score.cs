@@ -1,12 +1,10 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class score : MonoBehaviour
 {
 
     public int scoreValue = 0;
-    public string level;
 	public bool selectedMult = false;
     public TextMesh scoreboard;
     public TextMesh ballCount;
@@ -51,9 +49,9 @@ public class score : MonoBehaviour
         if (balls == 0)
         {
             balls = 8;
-            Data.Level = level;
+            Data.Level = SceneManager.GetActiveScene().name;
             Data.Score = int.Parse(scoreboard.text);
-            if (int.Parse(scoreboard.text) >= 3000)
+            if (int.Parse(scoreboard.text) >= 2000)
             {
                 SceneManager.LoadScene("win");
             }
