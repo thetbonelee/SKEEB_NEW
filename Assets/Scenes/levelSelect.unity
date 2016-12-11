@@ -2983,7 +2983,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1359763891}
-        m_MethodName: FivePress
+        m_MethodName: EightPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4024,7 +4024,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1359763891}
-        m_MethodName: FourPress
+        m_MethodName: SevenPress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5240,7 +5240,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1359763891}
-        m_MethodName: SixPress
+        m_MethodName: NinePress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -40,6 +40,18 @@ public class mainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("level6");
     }
+    public void SevenPress()
+    {
+        SceneManager.LoadScene("level7");
+    }
+    public void EightPress()
+    {
+        SceneManager.LoadScene("level8");
+    }
+    public void NinePress()
+    {
+        SceneManager.LoadScene("level9");
+    }
     public void InstructionPress()
     {
         SceneManager.LoadScene("instructions");
